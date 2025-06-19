@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recipe Finder App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>RECIPE FINDER</h1>
+    <input type="text" id="searchInput" placeholder="Search by name or ingredient…" />
+    <div class="button-group">
+      <button id="searchBtn">Find Recipe</button>
+      <button id="randomBtn">Get Random Recipe</button>
+      <button id="favBtn">View Favorites</button>
+    </div>
+    <select id="areaFilter">
+      <option value="">Filter by Area</option>
+      <option value="American">American</option>
+      <option value="British">British</option>
+      <option value="Chinese">Chinese</option>
+      <option value="Indian">Indian</option>
+      <option value="Italian">Italian</option>
+      <option value="Mexican">Mexican</option>
+      <option value="Thai">Thai</option>
+    </select>
+    <div id="recipeResult"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
